@@ -22,10 +22,6 @@ Node* Node::getNext() {
   return next;
 }
 
-void Student::setStudent(Student* newStudent) {
-  student = newStudent;
-}
-
-Student* Student::getStudent() {
+Student* Node::getStudent() {
   return student;
 }
